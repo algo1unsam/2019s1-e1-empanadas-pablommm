@@ -11,6 +11,7 @@ object gimenez {
     method sueldo(nuevoValor) { sueldo = nuevoValor }
     
     method cobrarSueldo(){
+    	
    	 if (deuda > 0){
    		 if(sueldo > deuda){
    			 dinero = (sueldo - deuda)
